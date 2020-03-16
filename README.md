@@ -4,16 +4,16 @@
 This four-page resume website template (cover page + three inner pages) is a creative way to showcase your online identity. It's absolutely unique and sleek. This personal website template is easy to customize. 
 
 This Resume include the following:
+<ul>
+ <li>Your personal information</li>
 
-Your personal information
+<li>Your skills</li>
 
-Your skills
+<li>Your education</li>
 
-Your education
+<li>Your personal profile and interests</li>
 
-Your personal profile and interests
-
-Contact Form
+<li>Contact Form</li>
 
 
 # Usage
