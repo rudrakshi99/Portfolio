@@ -1,4 +1,4 @@
-# Resume
+# Portfolio
  A personal resume website puts you in complete control over your name and your personal brand. It also increases your visibility and makes it easier for employers, or even clients, to find you online.
 
 This four-page resume website template (cover page + three inner pages) is a creative way to showcase your online identity. It's absolutely unique and sleek. This personal website template is easy to customize. 
