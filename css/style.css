@@ -164,8 +164,11 @@ html {
 
 .inner-about h1 {
   font-size: 3rem;
-  color: #fff;
+  color:  rgb(209, 45, 100);
   font-weight: 300;
+}
+.about hr {
+  border: 1px solid rgb(209, 45, 100);
 }
 
 .inner-about p {
