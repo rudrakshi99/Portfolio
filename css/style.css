@@ -107,8 +107,14 @@ html {
   line-height: 1rem;
 }
 
+
 .inner-home img:hover {
   width: 300px;
+  border: none;
+  -moz-box-shadow: 1px 1px 30px rgb(209, 45, 100);
+  -webkit-box-shadow: 1px 1px 30px rgb(209, 45, 100);
+      box-shadow: 1px 1px 30px rgb(209, 45, 100);
+  
 }
 
 .tag-line {
@@ -126,7 +132,10 @@ html {
   width: 50px;
   text-align: center;
 }
-
+.fab:hover {
+  box-shadow: 1px 1px 30px rgb(209, 45, 100);
+  border-radius: 100px;
+}
 @media (min-width: 377px) and (max-width: 1000px) {
   .home {
     font-size: 4rem;
