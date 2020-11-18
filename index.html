@@ -1,27 +1,132 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>cv</title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" href="img/pic.jpg" type="image/jpeg" />
+        <title>Rudrakshi</title>
     </head>
 
-    <body  background="img/art.jpg">
-        <div id="head">
-    <h1> Curriculum Vitae / Resume</h1></div>
-    <img id="img"  src="img/pic.jpg" >
-    <div class="menu">
-        <ul>
-        <li><a href="index.html" >HOME</a></li>
-        <li ><a href="pg1.html">PERSONAL DETAILS</a></li>
-        <li><a href="pg2.html">EDUCATION QUALIFICATIONS</a></li>
-        <li><a href="pgend.html">CONTACT ME</a></li>
-        </ul>
-        </div>
-        <div class="p">
-        <p>“I love what I do and I do what my clients loves & work with great clients all over the world to create thoughtful and purposeful websites.”
-            </p>
-    </div>
-    <footer id="main-footer">
-       <p> All Rights Reserved &copy;,2020<br>Made with ❤ by Rudrakshi </p>
-    </footer>
-</body>
+    <body>
+        <div class="background"></div>
+      <header class="main-header">
+          <div class="main-header__brand">
+              <p><a href="#home">Rudrakshi</a></p>
+          </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item"><a href="#home">Home</a></li>
+                <li class="main-nav__item"><a href="#about">About</a></li>
+                <li class="main-nav__item"><a href="#education">Education</a></li>
+                <li class="main-nav__item"><a href="#skills">Skills</a></li>
+                <li class="main-nav__item"><a href="#contact">Contact Me</a></li>
+            </ul>
+          </nav>
+    </header>
+    <section>
+        <section id="home" class="home">
+      
+          <div class="inner-home">
+            <img src="./img/pic.jpg"/>
+            <div class ="name"> 
+                <h1>Rudrakshi</h1>
+                <div class="tag-line">
+                    <p>Competitive Programmer | Web Developer </p>
+                </div>
+                
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about">
+            <div class="inner-about">
+              <h1>About</h1>
+              <hr>
+              <p>
+                I'm a CSE undergraduate pursuing B.Tech and a passionate programmer 
+                who loves to solve real-life problems. I am creatively curious and highly skilled in C/C++. I love to work people 
+                who are passionate about building solutions.
+              </p>
+            </div>
+          </section>
+          <section id="education" class="education">
+            <div class="inner-edu">
+              <h1>Education</h1>
+              <div>
+                <img
+                  src="https://i.ya-webdesign.com/images/school-icon-png-5.png"
+                />
+                <h2>Chhaya Public School</h2>
+                <p>Secondary Education, CBSE</p>
+                <p>2015 - 2016</p>
+              </div>
+              <div>
+                <img
+                  src="https://heylangu.com/images/education-icon-home.svg?v=1548322879110"
+                />
+                <h2>Chhaya Public School</h2>
+                <p>Higher Secondary Education, CBSE</p>
+                <p>2016 - 2018</p>
+              </div>
+              <div>
+                <img src="https://image.flaticon.com/icons/png/512/42/42972.png" />
+                <h2>JSS Academy of Technical Education</h2>
+                <p>Bachelor of Technology in Computer Science and Engineering</p>
+                <p>2019 - Present</p>
+              </div>
+            </div>
+          </section>
+          
+          <section id="skills" class="skills">
+            <div class="inner-skills">
+              <h1>Skills</h1>
+              <div>
+                <ul>
+                  <li><h3>Languages</h3></li>
+                  <li>C Language</li>
+                  <li>C++</li>
+                  <li>Python</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><h3>Web Development</h3></li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><h3>Technical</h3></li>
+                  <li>Data Structures and Algorithms</li>
+                  <li>Object Oriented programming</li>
+                  <li>Problem Solving</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        <section id="contact" class="contact">
+            <div class="inner-contact">
+                <div class="contact-head">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="form-area">
+            <form action="index.html" class="signup-form">
+              
+              <label for="first-name">First name</label>
+              <input type="text" id="first-name" required>
+              <label for="last-name">Last name</label>
+              <input type="text" id="last-name" required>
+              <label for="email">E-Mail</label>
+              <input type="email" id="email" required>
+              <label for="text">Your message</label>
+              <textarea rows="4" placeholder="your msg" id="text" required></textarea>
+              <button type="submit" class="button">Send</button>
+          </form>
+            </div>
+        </section>
+        
+        <footer class="main-footer">
+            <p> All Rights Reserved &copy;,2020<br>Made with ❤ by Rudrakshi </p>
+        </footer>
+    </body>
 </html> 
