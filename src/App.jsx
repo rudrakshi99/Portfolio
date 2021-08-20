@@ -36,7 +36,7 @@ export const App = () => {
               <Route path="/skills" exact>
                 <SkillsPage />
               </Route>
-              <Route path="/portfolios" exact>
+              <Route path="/projects" exact>
                 <PortfliosPage />
               </Route>
               <Route path="/blogs" exact>
