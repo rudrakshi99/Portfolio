@@ -16,6 +16,9 @@
             border: 1px solid #2e344e;
             margin-left: 2rem;
             width: 16%;
+            @media screen and (max-width: 385px) {
+                display: none;
+            }
         }
         .right-items {
             h6 {
