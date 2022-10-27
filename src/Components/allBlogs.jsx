@@ -54,10 +54,10 @@ const blogs = [
   {
     id: 6,
     image: blog6,
-    title: "Morgan Stanley Interview Experience for Technology Summer Analyst 2022 Internship (Off-Campus)",
-    link: "https://medium.com/@sonirudrakshi99/morgan-stanley-interview-experience-for-technology-summer-analyst-2021-internship-off-campus-bb1d179213a7",
-    date: "30",
-    month: "March",
+    title: "SIH2022- A Roller Coaster Ride",
+    link: "https://medium.com/@sonirudrakshi99/sih2022-a-roller-coaster-ride-3ce9f4faef08",
+    date: "1",
+    month: "Sep",
     year: "2022",
   },
 ];
