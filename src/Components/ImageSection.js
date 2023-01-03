@@ -9,12 +9,19 @@ const ImageSection = () => {
       </div>
       <div className="about-info">
         <h4>
-          I am<span> Rudrakshi Soni</span>
+          Hi, I am<span> Rudrakshi </span>
         </h4>
         <p className="about-text">
-          I'm a competitive programmer and an enthusiastic Web Developer who
-          loves to solve real-life problems. I have an immense interest in
-          software development and am eager to contribute to open source.
+          I'm a Software Developer and a passionate programmer who loves solving
+          challenges that shape industries. I have working experience with
+          Backend technologies in building REST APIs. I have an immense interest
+          in web development and am eager to contribute to open source. I love
+          to work with people who are passionate about building solutions.
+          <br />
+          <br />
+          Outside my professional life, I love to write blogs about Linux and
+          share my technical knowledge. I also love to do painting and
+          sketching.{" "}
         </p>
         <div className="about-details">
           <div className="left-section">
