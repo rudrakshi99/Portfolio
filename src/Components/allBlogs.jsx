@@ -4,6 +4,7 @@ import blog3 from "../img/blogs/blog3.jpeg";
 import blog4 from "../img/blogs/blog4.png";
 import blog5 from "../img/blogs/blog5.png";
 import blog6 from "../img/blogs/blog6.jpeg";
+import blog7 from "../img/blogs/blog6.jpeg";
 
 const blogs = [
   {
@@ -45,11 +46,11 @@ const blogs = [
   {
     id: 5,
     image: blog5,
-    title: "begin() and end() in Array C++ STL",
-    link: "https://iq.opengenus.org/begin-and-end-array-cpp/",
-    date: "15",
-    month: "May",
-    year: "2020",
+    title: "UNESCO India-Africa Hackathon 2022",
+    link: "https://medium.com/@sonirudrakshi99/unesco-india-africa-hackathon-2022-2ec88cea6eb9",
+    date: "13",
+    month: "Dec",
+    year: "2022",
   },
   {
     id: 6,
@@ -59,6 +60,15 @@ const blogs = [
     date: "1",
     month: "Sep",
     year: "2022",
+  },
+  {
+    id: 7,
+    image: blog7,
+    title: "begin() and end() in Array C++ STL",
+    link: "https://iq.opengenus.org/begin-and-end-array-cpp/",
+    date: "15",
+    month: "May",
+    year: "2020",
   },
 ];
 
