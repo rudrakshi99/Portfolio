@@ -1,3 +1,4 @@
+import port0 from "../img/portImages/port0.png";
 import port1 from "../img/portImages/port1.png";
 import port2 from "../img/portImages/port2.jpeg";
 import port3 from "../img/portImages/port3.png";
@@ -7,6 +8,19 @@ import port6 from "../img/portImages/port6.png";
 import port7 from "../img/portImages/port7.png";
 
 const portfolios = [
+  {
+    id: 0,
+    category: ["React Native", "Django REST Framework"],
+    link1: "https://github.com/rudrakshi99/Jan-Dhan-Darshak",
+    link2: "https://github.com/rudrakshi99/Jan-Dhan-Darshak",
+    icon1: "GitHub",
+    icon2: "Demo",
+    image: port0,
+    title: "Jan Dhan Darshak",
+    about:
+      "This application acts as a guide for the common people in locating a financial service touch point at a given location in the country. Jan Dhan Darshak app will be in a unique position to provide a citizen centric platform for locating financial service touch points across all providers such as banks, post office, CSC, etc.",
+  },
+
   {
     id: 1,
     category: ["Javascript", "Django REST Framework"],
@@ -57,39 +71,40 @@ const portfolios = [
   },
   {
     id: 5,
-    category: ["Javascript"],
-    link1: "https://github.com/rudrakshi99/Budgety",
-    link2: "https://rudrakshi99.github.io/Budgety/",
+    category: ["React.Js", "Django REST Framework", "Machine Learning"],
+    link1: "https://github.com/rudrakshi99/Farmer-Call-Center",
+    link2: "https://krashak-ai.netlify.app/",
     icon1: "GitHub",
     icon2: "Demo",
     image: port5,
-    title: "Budgety",
+    title: "Krashak.AI",
     about:
-      "Budgety is a web application that helps users to manage their budget and track their expenses.",
+      "AI-based voice-assisted Contact Center for assisting Farmers for their problems. ",
   },
   {
     id: 6,
-    category: ["Javascript"],
-    link1: "https://github.com/rudrakshi99/Sudoku_Web_App",
-    link2: "https://rudrakshi99.github.io/Sudoku_Web_App/",
+    category: ["React.Js", "Django REST Framework"],
+    link1: "https://github.com/rudrakshi99/SIH2022",
+    link2: "https://krishisadhan.netlify.app/",
     icon1: "GitHub",
     icon2: "Demo",
     image: port6,
-    title: "Sudoku_Web_App",
+    title: "Krishi Sadhan",
     about:
-      "Sudoku_Web_App is a web application that helps users to solve sudoku puzzle using the backtracking algorithm.",
+      "A platform that allows farmers to rent farming equipment for less during the off-season.    ",
   },
   {
     id: 7,
-    category: ["Javascript"],
-    link1: "https://github.com/rudrakshi99/Pig-Game",
-    link2: "https://rudrakshi-game.netlify.app/",
+    category: ["React.Js", "Django REST Framework"],
+    link1: "https://github.com/rudrakshi99/XharkTank",
+    link2:
+      "http://xharktank.crio.do/pitches/?author=sonirudrakshi99&url=http%3A%2F%2Frudrakshijss.pythonanywhere.com",
     icon1: "GitHub",
     icon2: "Demo",
     image: port7,
-    title: "Pig-Game",
+    title: "XharkTank",
     about:
-      "Pig-Game is a web application that helps users to play a dice game in which the first who scores 100 or more points, wins.",
+      "XharkTank is a platform that allows entrepreneurs to pitch their ideas to investors.",
   },
 ];
 
